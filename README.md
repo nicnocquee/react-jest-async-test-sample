@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/nicnocquee/react-jest-async-test-sample/tree/master.svg?style=svg)](https://circleci.com/gh/nicnocquee/react-jest-async-test-sample/tree/master)
+
 # Get Started
 
 1. Clone this repo
