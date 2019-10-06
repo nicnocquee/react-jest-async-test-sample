@@ -24,7 +24,6 @@ const App = () => {
   return (
     <div>
       {isLoading && <p data-testid="loading">Loading ...</p>}
-      {error && <p data-testid="error">Error</p>}
       {data && <p data-testid="data">{JSON.stringify(data, null, 2)}</p>}
       {!isLoading && (
         <button data-testid="check" onClick={() => setLastChecked(Date.now())}>
